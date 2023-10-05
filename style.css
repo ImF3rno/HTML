@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+html{
+    height: 100%;
+}
+
+/* ========== Pagrindinis ========== */
+.container-pagrindinis{
+    width: 94.5rem;
+    height: 61.375rem; 
+    background: #F2F9FF; 
+    display: flex;
+}
+
+/* ==========Kaire ========== */
+.kaire{
+    width: 32.75rem;
+    margin-left: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+.logo p{
+    padding-left: 2.5rem;
+    padding-top: 2rem;
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.5rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.kairesFooteris{
+    display: flex;
+    justify-items: flex-end;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.12rem;
+    
+}
+.kairesFooteris li{
+    display: inline;
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.125rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.05625rem;
+}
+
+/* ========== Desine ========== */
+.desine{
+    width: 61.75rem;
+    height: 61.375rem;
+    flex-shrink: 0;
+    border-radius: 3.125rem;
+    background: #FFF;
+}
+.navKaire{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-left: 3rem;
+    margin-top: 2rem;
+}
+.navKaire li{
+    display: inline;
+    padding-right: 3.12rem;
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+
+/* ========== Navbaras ========== */
+.navDesine{
+    display: flex;
+    padding-right: 2.5rem;
+    margin-top: -0.44rem;
+}
+.navDesine .cartas{
+    display: flex;
+    align-items:center;
+    height: 2rem;
+    width: 7rem; 
+    border-radius: 0.3125rem 0.9375rem 0.9375rem 0.9375rem;
+    background: #2B2B2B;
+}
+.navDesine .cartas .krepselis{
+    display: flex;
+    padding-left: 1rem;
+    color: #FFF;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal; 
+    font-weight: 700;
+    line-height: normal; 
+}
+.navDesine .cartas .skaicius{
+    display: flex;
+    justify-content: center;
+    align-items:center;
+    margin-left: 1rem;
+    border-radius: 55%;
+    color: #FFF;
+    width: 2rem;
+    height: 2rem; 
+    background-color: #525252;
+    font-family: Roboto;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal; 
+}
+.navDesine .menu{
+    border-radius: 0.3125rem 0.9375rem 0.9375rem 0.9375rem;
+    background: #43C7FF; 
+    width: 2rem;
+    height: 2rem;
+    flex-shrink: 0; 
+    margin-left: 1.5rem;
+}
+
+/* ========== Figura ========== */
+figure {
+    position: absolute;
+    margin-top: 9rem;
+    margin-left: -26rem;
+    border-radius: 0.9375rem 3.125rem 3.125rem 3.125rem;
+}
+
+/* ========== Tekstai ========== */
+.textai{
+    display: flex;
+}
+section .tekstas h1{
+    color: #000;
+    font-family: Roboto;
+    font-size: 4.0625rem;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+    letter-spacing: -0.20313rem;
+}
+section .tekstas p{
+    color: #969696;
+    font-family: Roboto;
+    font-size: 1.25rem;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+}
+section .tekstas h2{
+    color: #000;
+    font-family: Roboto;
+    font-size: 1.875rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+}
+/* ========== Nuotraukos ========== */
+.nuotraukos{
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+.pirmaNuotrauka{
+    border-radius: 0.9375rem;
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px rgba(67, 199, 255, 0.30);
+    width: 22.6875rem;
+    height: 5.8125rem;
+    flex-shrink: 0;
+}
+.antraNuotrauka img{
+    height: 5rem;
+    width: 8rem;
+    margin-top: 0.4rem;
+    margin-left: 0.2rem;
+}
+.antraNuotrauka{
+    border-radius: 0.9375rem;
+    background: #FFF;
+    box-shadow: 10px 10px 30px 0px rgba(67, 199, 255, 0.30);
+    width: 10.25rem;
+    height: 5.8125rem;
+    flex-shrink: 0;
+}
